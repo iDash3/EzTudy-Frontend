@@ -115,11 +115,13 @@ footer a{text-decoration: none !important;}
 	border-radius: 5px;
 }
 .doc{
-	font-weight: 500; 
-	font-size: 22pt;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+#doc-title{
+	font-weight: 500; 
+	font-size: 22pt;
 }
 .doc-rectangle{
 	margin: 2px;
@@ -138,7 +140,20 @@ footer a{text-decoration: none !important;}
 	font-size: 14pt;
 	font-weight: 300;
 	margin: 0 10px;
+	display: inline-block;
+}
+.doc-div-1 a{
+	display: inline-block;
 }
 .doc-container{
 	display: flex;
+}
+#check-files-t{
+	font-size: 18pt;
+	margin: 0 0 20px 0;
+	font-style: italic;
+}
+#check-files-t a{
+	color: #415ebe;
+	text-decoration: none;
 }
